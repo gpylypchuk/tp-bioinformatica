@@ -4,4 +4,74 @@ El gen HBB (hemoglobin subunit beta) codifica la cadena beta de la hemoglobina, 
 La hemoglobina está formada por cuatro subunidades (dos alfa y dos beta) que trabajan juntas para captar y liberar oxígeno según las necesidades del cuerpo.
 Elegimos este gen porque está directamente relacionado con la anemia falciforme, una enfermedad genética producida por una mutación puntual en HBB que cambia la forma normal de los glóbulos rojos por una forma alargada o “de hoz”. Esta alteración impide que el oxígeno se transporte correctamente y causa distintos problemas circulatorios y anémicos.
 
-b)
+b) En la base de datos NCBI Gene, dentro de la sección “Ortólogos del NCBI”, se identificaron 18 genes homólogos del HBB en mamíferos placentarios (Eutheria).
+ Entre los grupos en los que se encuentra el gen están los primates, roedores, insectívoros, armadillos, conejos y liebres, y lémures voladores.
+ Todas estas especies presentan una versión muy similar del gen HBB, que codifica una proteína de 147 aminoácidos con la misma función: formar parte de la hemoglobina y permitir el transporte de oxígeno en sangre.
+En la base Ensembl, se observaron 542 ortólogos distribuidos en 199 especies, incluyendo mamíferos, aves, reptiles y peces. Además, Ensembl clasifica los tipos de relación entre genes (por ejemplo, uno a uno o uno a varios) y muestra un árbol filogenético que ayuda a entender cómo evolucionó el gen en distintos grupos animales.
+Comparación entre bases:
+En NCBI, la lista es más reducida y se enfoca en los mamíferos placentarios, mostrando los ortólogos más confiables y curados.
+En Ensembl, la información es más completa y detallada, ya que incluye más especies y analiza las relaciones evolutivas de forma más profunda.
+
+El gen HBB es muy común entre los vertebrados y su función está altamente conservada. No se encuentra en bacterias, hongos ni plantas, ya que la hemoglobina es una proteína exclusiva de animales que utilizan la sangre para transportar oxígeno.
+
+C)En la base NCBI Gene, el gen HBB presenta un único transcripto principal codificante, identificado como NM_000518.5, que genera la proteína beta de la hemoglobina (NP_000509.1). Este transcripto está formado por 3 exones, como se observa en el mapa genómico de NCBI.
+No se registran variantes de splicing que produzcan proteínas diferentes, ya que la estructura del gen es corta y muy conservada.
+En cambio, en la base Ensembl se listan 7 transcriptos distintos.
+De esos, solo uno es el principal y funcional (ENST00000335295.4), que coincide con el transcripto NM_000518.5 de NCBI y codifica una proteína de 147 aminoácidos.
+ Los demás transcriptos corresponden a variantes con intrones retenidos, traducción incompleta o ARN no codificantes (retained intron, nonsense-mediated decay), por lo que no producen proteínas funcionales. 
+
+NCBI muestra solo el transcripto confirmado y curado experimentalmente, lo que lo hace más confiable para estudios clínicos.
+Ensembl incluye más variantes posibles (predicciones o transcriptos de baja evidencia), útiles para estudios genómicos y evolutivos
+
+El gen HBB no presenta splicing alternativo funcional, y la única proteína expresada es la subunidad beta de la hemoglobina, responsable del transporte de oxígeno en los glóbulos rojos.
+
+D)Interacciones del producto génico
+En la base NCBI Gene, el gen HBB muestra alrededor de 194 interacciones conocidas con otras proteínas, según los registros de BioGRID y HPRD.
+ Entre las más destacadas se encuentran:
+HBA1 y HBA2, que forman junto con HBB el complejo tetramérico de hemoglobina A (α₂β₂).
+HP (haptoglobina), que se une a la hemoglobina libre en sangre para evitar el daño oxidativo.
+HBG2 y HBZ, otras cadenas de globina que participan en etapas del desarrollo (fetal o embrionario).
+También aparecen interacciones con proteínas regulatorias como POLR2A, XRCC5 y SELENOT, registradas por experimentos de afinidad masiva (Affinity Capture–MS).
+
+En la base UniProt (P68871), las interacciones son más específicas y muestran 5 proteínas con interacción confirmada mediante múltiples experimentos:
+ HBA2, HBM, HBQ1, HBZ y GRID1.
+ De estas, la más fuerte y frecuente es la de HBB–HBA2, con 32 experimentos reportados, que confirma la formación del complejo funcional de hemoglobina.
+ También se observa la interacción con HBZ (hemoglobina embrionaria) y HBQ1 (hemoglobina fetal).
+Comparación entre bases:
+NCBI Gene ofrece una lista más amplia (194 interacciones), porque incluye todos los reportes experimentales, incluso los de alta capacidad (BioGRID, HPRD).
+UniProt presenta solo las interacciones directas y comprobadas experimentalmente, destacando las biológicamente más relevantes.
+Ambas coinciden en que las interacciones más importantes son con las cadenas alfa (HBA1/HBA2), lo que confirma su papel estructural en la formación del tetrámero de hemoglobina.
+
+ El patrón general muestra que HBB interactúa principalmente con otras cadenas de globina y proteínas asociadas al transporte de oxígeno, como HBA2 y HP, reflejando su rol esencial en el sistema sanguíneo.
+ Algunas interacciones menos comunes (como con GRID1 o SELENOT) podrían representar funciones secundarias o resultados de estudios de alta escala.
+
+E) La proteína HBB cumple una función vital en el transporte de oxígeno, se ubica en el complejo de hemoglobina dentro de los eritrocitos, y participa en procesos biológicos de regulación vascular, detoxificación y respuesta al estrés oxidativo, confirmando su importancia central en la fisiología humana.
+Función molecular:
+ La proteína HBB se une al grupo hemo, al oxígeno y a iones metálicos como el hierro. Interactúa con las cadenas alfa de la hemoglobina (HBA1 y HBA2) para formar el complejo funcional de hemoglobina A (α₂β₂) y con la haptoglobina (HP) cuando se libera al plasma. Su función principal es la actividad transportadora de oxígeno en la sangre.
+Procesos biológicos:
+ Participa en el transporte de oxígeno y dióxido de carbono, en la regulación de la presión arterial y del diámetro de los vasos sanguíneos, y en la respuesta al estrés oxidativo. También interviene en la detoxificación de oxidantes y en procesos de respuesta inflamatoria, contribuyendo al equilibrio del oxígeno y a la protección frente al daño celular.
+Componente celular:
+ Se localiza principalmente en el citoplasma de los glóbulos rojos, formando parte del complejo de hemoglobina, aunque también puede encontrarse en el plasma dentro del complejo haptoglobina–hemoglobina, que actúa cuando hay liberación de hemoglobina.
+
+F)Según Reactome, el gen HBB participa en varias rutas celulares relacionadas con el transporte, la degradación y la respuesta al estrés oxidativo de la hemoglobina.
+ Entre las principales se destacan:
+Cytoprotection by HMOX1 y Heme signaling, donde la hemoglobina beta (HBB) participa en la respuesta celular al estrés químico y a especies reactivas del oxígeno. En estas rutas, el peróxido de hidrógeno (H₂O₂) puede oxidar la hemoglobina a metahemoglobina (MetHb), mientras que enzimas antioxidantes la reducen nuevamente para mantener su función.
+Scavenging of heme from plasma, donde la hemoglobina libre se une a la haptoglobina (HP) y se internaliza por el receptor CD163, evitando que el hierro libre genere daño oxidativo.
+Autophagy y Chaperone-mediated autophagy, donde la HBB puede degradarse en los lisosomas cuando la célula necesita reciclar proteínas.
+Neutrophil degranulation (Innate Immune System), donde aparece asociada a proteínas liberadas durante la respuesta inflamatoria.
+
+Estas vías muestran que HBB no solo cumple su función de transporte de oxígeno, sino que también participa en procesos de defensa celular, reciclaje proteico y control del daño oxidativo.
+En la base KEGG, el gen HBB (hsa:3043) aparece dentro de las rutas asociadas a enfermedades infecciosas como malaria (hsa05144) y tripanosomiasis africana (hsa05143), debido a que las alteraciones en la estructura de la hemoglobina modifican la resistencia o susceptibilidad frente a estos parásitos.
+
+G)En la base dbSNP, se identificó la variante rs334 del gen HBB, asociada con la anemia falciforme (sickle cell disease).
+ Esta variante corresponde a un cambio de nucleótido T>A en la posición chr11:5227002 (GRCh38.p14), que provoca una mutación missense en el codón 6 de la β-globina (GAG → GTG).
+ Como resultado, se sustituye el aminoácido ácido glutámico (Glu) por valina (Val), generando la proteína anormal hemoglobina S (HbS).
+Esta mutación modifica las propiedades físico-químicas de la hemoglobina, haciendo que, bajo condiciones de baja concentración de oxígeno, las moléculas de HbS se agreguen y deformen los eritrocitos en forma de hoz.
+ Estas células falciformes tienen menor flexibilidad, se destruyen más rápido y obstruyen los capilares, causando los síntomas típicos de la anemia falciforme (anemia hemolítica, dolor, hipoxia tisular).
+Según los datos de dbSNP, el alelo alternativo (A) tiene una frecuencia global baja:
+0.0128 en GnomAD (1922/149,270 genomas)
+0.0048 en ExAC
+0.00078 en ALFA
+
+Sin embargo, estudios poblacionales indican que en regiones de África subsahariana la frecuencia puede llegar al 10–20 %, ya que la condición heterocigota (HbA/HbS) otorga resistencia parcial frente a la malaria por Plasmodium falciparum.
+La variante rs334 está registrada en ClinVar como patogénica, con más de 100 publicaciones científicas que confirman su asociación con la enfermedad.
