@@ -146,8 +146,10 @@ python3 ex5.py \
 
 ---
 
-# 👥 Contribuidores
+## 👥 Contribuidores
 
-| [![agmiguel-k](https://github.com/agmiguel-k.png?size=60)](https://github.com/agmiguel-k) | [![gpylypchuk](https://github.com/gpylypchuk.png?size=60)](https://github.com/gpylypchuk) | [![thiagosayegh](https://github.com/thiagosayegh.png?size=60)](https://github.com/thiagosayegh) | [![s-gruss](https://github.com/s-gruss.png?size=60)](https://github.com/s-gruss) |
-|:---:|:---:|:---:|:---:|
-| [agmiguel-k](https://github.com/agmiguel-k) | [gpylypchuk](https://github.com/gpylypchuk) | [thiagosayegh](https://github.com/thiagosayegh) | [s-gruss](https://github.com/s-gruss) |
+| [![agmiguel-k](https://github.com/agmiguel-k.png?size=60)](https://github.com/agmiguel-k) | [![gpylypchuk](https://github.com/gpylypchuk.png?size=300)](https://github.com/gpylypchuk) | [![thiagosayegh](https://github.com/thiagosayegh.png?size=60)](https://github.com/thiagosayegh) | [![s-gruss](https://github.com/s-gruss.png?size=60)](https://github.com/s-gruss) | [![tcobian831](https://github.com/tcobian831.png?size=60)](https://github.com/tcobian831) |
+|:---:|:---:|:---:|:---:|:---:|
+| [agmiguel-k](https://github.com/agmiguel-k) | [gpylypchuk](https://github.com/gpylypchuk) | [thiagosayegh](https://github.com/thiagosayegh) | [s-gruss](https://github.com/s-gruss) | [tcobian831](https://github.com/tcobian831) |
+
+---
