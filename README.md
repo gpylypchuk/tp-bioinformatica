@@ -42,12 +42,18 @@ python3 ex1.py -i HBB_NM000518_5.gbk -o HBB_AA_6frames.fasta
 
 ---
 
-### 📌 Ejercicio 2 – BLAST remoto
+### 📌 Ejercicio 2 – BLAST remoto y local
 Ejecuta un **BLAST remoto contra la base de datos NCBI**, partiendo de una secuencia de entrada.
 ```bash
-python3 ex2.py -i seq_1.fasta -o blast_remote.xml
+python3 blast.py --mode remote -i seq_1.fasta -o blast_remote.xml
 ```
 **Salida:** archivo `blast_remote.xml` en formato XML (outfmt 5) con los resultados de BLAST.
+
+Ejecuta un **BLAST LOCAL contra la base de datos de NCBI descargada**, a partir de una secuencia de entrada:
+
+```bash
+python3 blast.py --mode local -i seq_1.fasta -o blast_remote.xml -d path/a/tu/db
+```
 
 ---
 
