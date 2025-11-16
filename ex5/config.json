@@ -1,0 +1,9 @@
+{
+  "primer_min_len": 18,
+  "primer_max_len": 24,
+  "gc_min": 0.50,
+  "gc_max": 0.60,
+  "max_tm": 67,
+  "avoid_terminal_gc": true,
+  "num_primers": 5
+}

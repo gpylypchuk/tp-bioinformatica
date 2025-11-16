@@ -1,0 +1,1260 @@
+
+################ ORF 1: NM_000518.5|frame=+1|orf=1|aa_start=39|aa_end=77|aa_len=39 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:28
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_01.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_01_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_01_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=39     from: 1   to: 39
+# HitCount: 2
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 37 of sequence
+End = position 39 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+MLLWATLR
+     | |
+    37 39
+
+Length = 6
+Start = position 10 of sequence
+End = position 15 of sequence
+
+Motif = MYRISTYL
+
+VRPWAGCWWSTLGPRG
+     |    |
+    10    15
+
+
+#---------------------------------------
+#
+# Motif: PKC_PHOSPHO_SITE
+# Count: 1
+# 
+# *****************************************
+# * Protein kinase C phosphorylation site *
+# *****************************************
+# 
+# In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+# serine or  threonine residues found close to a C-terminal basic residue [1,2].
+# The presence  of  additional   basic residues at the  N- or C-terminal of  the
+# target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+# 
+# -Consensus pattern: [ST]-x-[RK]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Woodget J.R., Gould K.L., Hunter T.
+#      Eur. J. Biochem. 161:177-184(1986).
+# [ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+#      Takeyama Y., Nishizuka Y.
+#      "Studies on the phosphorylation of myelin basic protein by protein
+#      kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+#      J. Biol. Chem. 260:12492-12499(1985).
+#      PubMed=2413024
+# 
+# ***************
+# 
+# Motif: MYRISTYL
+# Count: 1
+# 
+# *************************
+# * N-myristoylation site *
+# *************************
+# 
+# An  appreciable  number of eukaryotic  proteins  are  acylated by the covalent
+# addition of myristate (a C14-saturated fatty acid) to their N-terminal residue
+# via an amide linkage [1,2]. The sequence specificity of the enzyme responsible
+# for this  modification,   myristoyl CoA:protein N-myristoyl transferase (NMT),
+# has been  derived from the sequence of known N-myristoylated proteins and from
+# studies using synthetic peptides. It seems to be the following:
+# 
+#  - The N-terminal residue must be glycine.
+#  - In position 2, uncharged residues  are allowed.  Charged residues,  proline
+#    and large hydrophobic residues are not allowed.
+#  - In positions 3 and 4, most, if not all, residues are allowed.
+#  - In position  5,  small uncharged  residues are allowed (Ala, Ser, Thr, Cys,
+#    Asn and Gly). Serine is favored.
+#  - In position 6, proline is not allowed.
+# 
+# -Consensus pattern: G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}
+#                     [G is the N-myristoylation site]
+# 
+# -Note: We  deliberately include as  potential myristoylated  glycine residues,
+#  those which  are  internal  to a sequence. It could well be that the sequence
+#  under study  represents  a  viral  polyprotein  precursor and that subsequent
+#  proteolytic processing  could expose an internal glycine as the N-terminal of
+#  a mature protein.
+# 
+# -Last update: October 1989 / Pattern and text revised.
+# 
+# [ 1] Towler D.A., Gordon J.I., Adams S.P., Glaser L.
+#      "The biology and enzymology of eukaryotic protein acylation."
+#      Annu. Rev. Biochem. 57:69-99(1988).
+#      PubMed=3052287; DOI=10.1146/annurev.bi.57.070188.000441
+# [ 2] Grand R.J.A.
+#      "Acylation of viral and eukaryotic proteins."
+#      Biochem. J. 258:625-638(1989).
+#      PubMed=2658970
+# 
+# ***************
+# 
+#
+#---------------------------------------
+
+################ ORF 2: NM_000518.5|frame=+1|orf=2|aa_start=70|aa_end=77|aa_len=8 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:28
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_02.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_02_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_02_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=8     from: 1   to: 8
+# HitCount: 1
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 6 of sequence
+End = position 8 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+MLLWATLR
+     | |
+     6 8
+
+
+#---------------------------------------
+#
+# Motif: PKC_PHOSPHO_SITE
+# Count: 1
+# 
+# *****************************************
+# * Protein kinase C phosphorylation site *
+# *****************************************
+# 
+# In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+# serine or  threonine residues found close to a C-terminal basic residue [1,2].
+# The presence  of  additional   basic residues at the  N- or C-terminal of  the
+# target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+# 
+# -Consensus pattern: [ST]-x-[RK]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Woodget J.R., Gould K.L., Hunter T.
+#      Eur. J. Biochem. 161:177-184(1986).
+# [ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+#      Takeyama Y., Nishizuka Y.
+#      "Studies on the phosphorylation of myelin basic protein by protein
+#      kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+#      J. Biol. Chem. 260:12492-12499(1985).
+#      PubMed=2413024
+# 
+# ***************
+# 
+#
+#---------------------------------------
+
+################ ORF 3: NM_000518.5|frame=+1|orf=3|aa_start=81|aa_end=105|aa_len=25 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:28
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_03.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_03_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_03_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=25     from: 1   to: 25
+# HitCount: 2
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 3 of sequence
+End = position 6 of sequence
+
+Motif = CAMP_PHOSPHO_SITE
+
+MARKCSVPLVM
+  |  |
+  3  6
+
+Length = 3
+Start = position 18 of sequence
+End = position 20 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+WLTWTTSRAPLPH
+     | |
+    18 20
+
+
+#---------------------------------------
+#
+# Motif: CAMP_PHOSPHO_SITE
+# Count: 1
+# 
+# ****************************************************************
+# * cAMP- and cGMP-dependent protein kinase phosphorylation site *
+# ****************************************************************
+# 
+# There has been a  number of studies  relative to the  specificity of cAMP- and
+# cGMP-dependent protein kinases [1,2,3].  Both types of kinases appear to share
+# a preference  for  the  phosphorylation  of serine or threonine residues found
+# close to at least  two consecutive N-terminal  basic residues. It is important
+# to note that there are quite a number of exceptions to this rule.
+# 
+# -Consensus pattern: [RK](2)-x-[ST]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Fremisco J.R., Glass D.B., Krebs E.G.
+#      J. Biol. Chem. 255:4240-4245(1980).
+# [ 2] Glass D.B., Smith S.B.
+#      "Phosphorylation by cyclic GMP-dependent protein kinase of a synthetic
+#      peptide corresponding to the autophosphorylation site in the enzyme."
+#      J. Biol. Chem. 258:14797-14803(1983).
+#      PubMed=6317673
+# [ 3] Glass D.B., el-Maghrabi M.R., Pilkis S.J.
+#      "Synthetic peptides corresponding to the site phosphorylated in
+#      6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase as substrates of
+#      cyclic nucleotide-dependent protein kinases."
+#      J. Biol. Chem. 261:2987-2993(1986).
+#      PubMed=3005275
+# 
+# ***************
+# 
+# Motif: PKC_PHOSPHO_SITE
+# Count: 1
+# 
+# *****************************************
+# * Protein kinase C phosphorylation site *
+# *****************************************
+# 
+# In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+# serine or  threonine residues found close to a C-terminal basic residue [1,2].
+# The presence  of  additional   basic residues at the  N- or C-terminal of  the
+# target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+# 
+# -Consensus pattern: [ST]-x-[RK]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Woodget J.R., Gould K.L., Hunter T.
+#      Eur. J. Biochem. 161:177-184(1986).
+# [ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+#      Takeyama Y., Nishizuka Y.
+#      "Studies on the phosphorylation of myelin basic protein by protein
+#      kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+#      J. Biol. Chem. 260:12492-12499(1985).
+#      PubMed=2413024
+# 
+# ***************
+# 
+#
+#---------------------------------------
+
+################ ORF 4: NM_000518.5|frame=+1|orf=4|aa_start=91|aa_end=105|aa_len=15 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:28
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_04.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_04_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_04_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=15     from: 1   to: 15
+# HitCount: 1
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 8 of sequence
+End = position 10 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+WLTWTTSRAPLPH
+     | |
+     8 10
+
+
+#---------------------------------------
+#
+# Motif: PKC_PHOSPHO_SITE
+# Count: 1
+# 
+# *****************************************
+# * Protein kinase C phosphorylation site *
+# *****************************************
+# 
+# In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+# serine or  threonine residues found close to a C-terminal basic residue [1,2].
+# The presence  of  additional   basic residues at the  N- or C-terminal of  the
+# target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+# 
+# -Consensus pattern: [ST]-x-[RK]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Woodget J.R., Gould K.L., Hunter T.
+#      Eur. J. Biochem. 161:177-184(1986).
+# [ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+#      Takeyama Y., Nishizuka Y.
+#      "Studies on the phosphorylation of myelin basic protein by protein
+#      kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+#      J. Biol. Chem. 260:12492-12499(1985).
+#      PubMed=2413024
+# 
+# ***************
+# 
+#
+#---------------------------------------
+
+################ ORF 5: NM_000518.5|frame=+1|orf=5|aa_start=157|aa_end=174|aa_len=18 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:28
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_05.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_05_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_05_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=18     from: 1   to: 18
+# HitCount: 0
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+################ ORF 6: NM_000518.5|frame=+1|orf=6|aa_start=191|aa_end=200|aa_len=10 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:28
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_06.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_06_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_06_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=10     from: 1   to: 10
+# HitCount: 0
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+################ ORF 7: NM_000518.5|frame=+3|orf=1|aa_start=17|aa_end=163|aa_len=147 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:28
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_07.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_07_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_07_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=147     from: 1   to: 147
+# HitCount: 8
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 39 of sequence
+End = position 41 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+VVYPWTQRFFESF
+     | |
+    39 41
+
+Length = 4
+Start = position 88 of sequence
+End = position 91 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+KGTFATLSELHCDK
+     |  |
+    88  91
+
+Length = 4
+Start = position 50 of sequence
+End = position 53 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+SFGDLSTPDAVMGN
+     |  |
+    50  53
+
+Length = 4
+Start = position 45 of sequence
+End = position 48 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+QRFFESFGDLSTPD
+     |  |
+    45  48
+
+Length = 4
+Start = position 5 of sequence
+End = position 8 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+MVHLTPEEKSAVT
+    |  |
+    5  8
+
+Length = 6
+Start = position 137 of sequence
+End = position 142 of sequence
+
+Motif = MYRISTYL
+
+QKVVAGVANALAHKYH
+     |    |
+   137    142
+
+Length = 6
+Start = position 84 of sequence
+End = position 89 of sequence
+
+Motif = MYRISTYL
+
+LDNLKGTFATLSELHC
+     |    |
+    84    89
+
+Length = 4
+Start = position 64 of sequence
+End = position 67 of sequence
+
+Motif = AMIDATION
+
+PKVKAHGKKVLGAF
+     |  |
+    64  67
+
+
+#---------------------------------------
+#
+# Motif: PKC_PHOSPHO_SITE
+# Count: 1
+# 
+# *****************************************
+# * Protein kinase C phosphorylation site *
+# *****************************************
+# 
+# In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+# serine or  threonine residues found close to a C-terminal basic residue [1,2].
+# The presence  of  additional   basic residues at the  N- or C-terminal of  the
+# target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+# 
+# -Consensus pattern: [ST]-x-[RK]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Woodget J.R., Gould K.L., Hunter T.
+#      Eur. J. Biochem. 161:177-184(1986).
+# [ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+#      Takeyama Y., Nishizuka Y.
+#      "Studies on the phosphorylation of myelin basic protein by protein
+#      kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+#      J. Biol. Chem. 260:12492-12499(1985).
+#      PubMed=2413024
+# 
+# ***************
+# 
+# Motif: CK2_PHOSPHO_SITE
+# Count: 4
+# 
+# *****************************************
+# * Casein kinase II phosphorylation site *
+# *****************************************
+# 
+# Casein kinase II (CK-2) is a protein serine/threonine kinase whose activity is
+# independent of  cyclic  nucleotides   and  calcium.  CK-2  phosphorylates many
+# different proteins.   The  substrate  specificity [1]  of  this  enzyme can be
+# summarized as follows:
+# 
+#  (1) Under comparable conditions Ser is favored over Thr.
+#  (2) An acidic residue (either Asp or Glu) must be present three residues from
+#      the C-terminal of the phosphate acceptor site.
+#  (3) Additional acidic  residues in  positions +1, +2, +4, and +5 increase the
+#      phosphorylation rate.  Most  physiological  substrates  have at least one
+#      acidic residue in these positions.
+#  (4) Asp is preferred to Glu as the provider of acidic determinants.
+#  (5) A basic residue at the N-terminal  of the  acceptor  site  decreases  the
+#      phosphorylation rate, while an acidic one will increase it.
+# 
+# -Consensus pattern: [ST]-x(2)-[DE]
+#                     [S or T is the phosphorylation site]
+# 
+# -Note: This pattern is found in most of the known physiological substrates.
+# 
+# -Last update: May 1991 / Text revised.
+# 
+# [ 1] Pinna L.A.
+#      "Casein kinase 2: an 'eminence grise' in cellular regulation?"
+#      Biochim. Biophys. Acta 1054:267-284(1990).
+#      PubMed=2207178
+# 
+# ***************
+# 
+# Motif: MYRISTYL
+# Count: 2
+# 
+# *************************
+# * N-myristoylation site *
+# *************************
+# 
+# An  appreciable  number of eukaryotic  proteins  are  acylated by the covalent
+# addition of myristate (a C14-saturated fatty acid) to their N-terminal residue
+# via an amide linkage [1,2]. The sequence specificity of the enzyme responsible
+# for this  modification,   myristoyl CoA:protein N-myristoyl transferase (NMT),
+# has been  derived from the sequence of known N-myristoylated proteins and from
+# studies using synthetic peptides. It seems to be the following:
+# 
+#  - The N-terminal residue must be glycine.
+#  - In position 2, uncharged residues  are allowed.  Charged residues,  proline
+#    and large hydrophobic residues are not allowed.
+#  - In positions 3 and 4, most, if not all, residues are allowed.
+#  - In position  5,  small uncharged  residues are allowed (Ala, Ser, Thr, Cys,
+#    Asn and Gly). Serine is favored.
+#  - In position 6, proline is not allowed.
+# 
+# -Consensus pattern: G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}
+#                     [G is the N-myristoylation site]
+# 
+# -Note: We  deliberately include as  potential myristoylated  glycine residues,
+#  those which  are  internal  to a sequence. It could well be that the sequence
+#  under study  represents  a  viral  polyprotein  precursor and that subsequent
+#  proteolytic processing  could expose an internal glycine as the N-terminal of
+#  a mature protein.
+# 
+# -Last update: October 1989 / Pattern and text revised.
+# 
+# [ 1] Towler D.A., Gordon J.I., Adams S.P., Glaser L.
+#      "The biology and enzymology of eukaryotic protein acylation."
+#      Annu. Rev. Biochem. 57:69-99(1988).
+#      PubMed=3052287; DOI=10.1146/annurev.bi.57.070188.000441
+# [ 2] Grand R.J.A.
+#      "Acylation of viral and eukaryotic proteins."
+#      Biochem. J. 258:625-638(1989).
+#      PubMed=2658970
+# 
+# ***************
+# 
+# Motif: AMIDATION
+# Count: 1
+# 
+# ******************
+# * Amidation site *
+# ******************
+# 
+# The precursor of  hormones  and other active  peptides  which are C-terminally
+# amidated is always directly followed [1,2] by a glycine residue which provides
+# the amide group, and  most often by at  least two  consecutive  basic residues
+# (Arg or Lys) which generally function as an active peptide  precursor cleavage
+# site.  Although all amino acids can be amidated,  neutral hydrophobic residues
+# such as Val or Phe are good substrates, while  charged residues such as Asp or
+# Arg  are much less reactive.  C-terminal  amidation has not  yet been shown to
+# occur in unicellular organisms or in plants.
+# 
+# -Consensus pattern: x-G-[RK]-[RK]
+#                     [x is the amidation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Kreil G.
+#      "Occurrence, detection, and biosynthesis of carboxy-terminal amides."
+#      Methods Enzymol. 106:218-223(1984).
+#      PubMed=6548541
+# [ 2] Bradbury A.F., Smyth D.G.
+#      "Biosynthesis of the C-terminal amide in peptide hormones."
+#      Biosci. Rep. 7:907-916(1987).
+#      PubMed=3331120
+# 
+# ***************
+# 
+#
+#---------------------------------------
+
+################ ORF 8: NM_000518.5|frame=+3|orf=2|aa_start=72|aa_end=163|aa_len=92 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:28
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_08.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_08_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_08_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=92     from: 1   to: 92
+# HitCount: 4
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 33 of sequence
+End = position 36 of sequence
+
+Motif = CK2_PHOSPHO_SITE
+
+KGTFATLSELHCDK
+     |  |
+    33  36
+
+Length = 6
+Start = position 82 of sequence
+End = position 87 of sequence
+
+Motif = MYRISTYL
+
+QKVVAGVANALAHKYH
+     |    |
+    82    87
+
+Length = 6
+Start = position 29 of sequence
+End = position 34 of sequence
+
+Motif = MYRISTYL
+
+LDNLKGTFATLSELHC
+     |    |
+    29    34
+
+Length = 4
+Start = position 9 of sequence
+End = position 12 of sequence
+
+Motif = AMIDATION
+
+PKVKAHGKKVLGAF
+     |  |
+     9  12
+
+
+#---------------------------------------
+#
+# Motif: CK2_PHOSPHO_SITE
+# Count: 1
+# 
+# *****************************************
+# * Casein kinase II phosphorylation site *
+# *****************************************
+# 
+# Casein kinase II (CK-2) is a protein serine/threonine kinase whose activity is
+# independent of  cyclic  nucleotides   and  calcium.  CK-2  phosphorylates many
+# different proteins.   The  substrate  specificity [1]  of  this  enzyme can be
+# summarized as follows:
+# 
+#  (1) Under comparable conditions Ser is favored over Thr.
+#  (2) An acidic residue (either Asp or Glu) must be present three residues from
+#      the C-terminal of the phosphate acceptor site.
+#  (3) Additional acidic  residues in  positions +1, +2, +4, and +5 increase the
+#      phosphorylation rate.  Most  physiological  substrates  have at least one
+#      acidic residue in these positions.
+#  (4) Asp is preferred to Glu as the provider of acidic determinants.
+#  (5) A basic residue at the N-terminal  of the  acceptor  site  decreases  the
+#      phosphorylation rate, while an acidic one will increase it.
+# 
+# -Consensus pattern: [ST]-x(2)-[DE]
+#                     [S or T is the phosphorylation site]
+# 
+# -Note: This pattern is found in most of the known physiological substrates.
+# 
+# -Last update: May 1991 / Text revised.
+# 
+# [ 1] Pinna L.A.
+#      "Casein kinase 2: an 'eminence grise' in cellular regulation?"
+#      Biochim. Biophys. Acta 1054:267-284(1990).
+#      PubMed=2207178
+# 
+# ***************
+# 
+# Motif: MYRISTYL
+# Count: 2
+# 
+# *************************
+# * N-myristoylation site *
+# *************************
+# 
+# An  appreciable  number of eukaryotic  proteins  are  acylated by the covalent
+# addition of myristate (a C14-saturated fatty acid) to their N-terminal residue
+# via an amide linkage [1,2]. The sequence specificity of the enzyme responsible
+# for this  modification,   myristoyl CoA:protein N-myristoyl transferase (NMT),
+# has been  derived from the sequence of known N-myristoylated proteins and from
+# studies using synthetic peptides. It seems to be the following:
+# 
+#  - The N-terminal residue must be glycine.
+#  - In position 2, uncharged residues  are allowed.  Charged residues,  proline
+#    and large hydrophobic residues are not allowed.
+#  - In positions 3 and 4, most, if not all, residues are allowed.
+#  - In position  5,  small uncharged  residues are allowed (Ala, Ser, Thr, Cys,
+#    Asn and Gly). Serine is favored.
+#  - In position 6, proline is not allowed.
+# 
+# -Consensus pattern: G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}
+#                     [G is the N-myristoylation site]
+# 
+# -Note: We  deliberately include as  potential myristoylated  glycine residues,
+#  those which  are  internal  to a sequence. It could well be that the sequence
+#  under study  represents  a  viral  polyprotein  precursor and that subsequent
+#  proteolytic processing  could expose an internal glycine as the N-terminal of
+#  a mature protein.
+# 
+# -Last update: October 1989 / Pattern and text revised.
+# 
+# [ 1] Towler D.A., Gordon J.I., Adams S.P., Glaser L.
+#      "The biology and enzymology of eukaryotic protein acylation."
+#      Annu. Rev. Biochem. 57:69-99(1988).
+#      PubMed=3052287; DOI=10.1146/annurev.bi.57.070188.000441
+# [ 2] Grand R.J.A.
+#      "Acylation of viral and eukaryotic proteins."
+#      Biochem. J. 258:625-638(1989).
+#      PubMed=2658970
+# 
+# ***************
+# 
+# Motif: AMIDATION
+# Count: 1
+# 
+# ******************
+# * Amidation site *
+# ******************
+# 
+# The precursor of  hormones  and other active  peptides  which are C-terminally
+# amidated is always directly followed [1,2] by a glycine residue which provides
+# the amide group, and  most often by at  least two  consecutive  basic residues
+# (Arg or Lys) which generally function as an active peptide  precursor cleavage
+# site.  Although all amino acids can be amidated,  neutral hydrophobic residues
+# such as Val or Phe are good substrates, while  charged residues such as Asp or
+# Arg  are much less reactive.  C-terminal  amidation has not  yet been shown to
+# occur in unicellular organisms or in plants.
+# 
+# -Consensus pattern: x-G-[RK]-[RK]
+#                     [x is the amidation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Kreil G.
+#      "Occurrence, detection, and biosynthesis of carboxy-terminal amides."
+#      Methods Enzymol. 106:218-223(1984).
+#      PubMed=6548541
+# [ 2] Bradbury A.F., Smyth D.G.
+#      "Biosynthesis of the C-terminal amide in peptide hormones."
+#      Biosci. Rep. 7:907-916(1987).
+#      PubMed=3331120
+# 
+# ***************
+# 
+#
+#---------------------------------------
+
+################ ORF 9: NM_000518.5|frame=-1|orf=1|aa_start=6|aa_end=19|aa_len=14 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:28
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_09.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_09_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_09_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=14     from: 1   to: 14
+# HitCount: 0
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+################ ORF 10: NM_000518.5|frame=-1|orf=2|aa_start=193|aa_end=196|aa_len=4 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:28
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_10.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_10_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_10_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=4     from: 1   to: 4
+# HitCount: 0
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+################ ORF 11: NM_000518.5|frame=-1|orf=3|aa_start=209|aa_end=209|aa_len=1 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:29
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_11.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_11_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_11_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=1     from: 1   to: 1
+# HitCount: 0
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+################ ORF 12: NM_000518.5|frame=-2|orf=1|aa_start=14|aa_end=28|aa_len=15 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:29
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_12.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_12_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_12_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=15     from: 1   to: 15
+# HitCount: 0
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+################ ORF 13: NM_000518.5|frame=-3|orf=1|aa_start=2|aa_end=8|aa_len=7 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:29
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_13.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_13_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_13_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=7     from: 1   to: 7
+# HitCount: 0
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------
+
+################ ORF 14: NM_000518.5|frame=-3|orf=2|aa_start=76|aa_end=208|aa_len=133 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:29
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_14.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_14_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_14_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=133     from: 1   to: 133
+# HitCount: 2
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 64 of sequence
+End = position 66 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+RVAHNSIRSGQIP
+     | |
+    64 66
+
+Length = 6
+Start = position 90 of sequence
+End = position 95 of sequence
+
+Motif = MYRISTYL
+
+QQPAQGLTTNFIHVHL
+     |    |
+    90    95
+
+
+#---------------------------------------
+#
+# Motif: PKC_PHOSPHO_SITE
+# Count: 1
+# 
+# *****************************************
+# * Protein kinase C phosphorylation site *
+# *****************************************
+# 
+# In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+# serine or  threonine residues found close to a C-terminal basic residue [1,2].
+# The presence  of  additional   basic residues at the  N- or C-terminal of  the
+# target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+# 
+# -Consensus pattern: [ST]-x-[RK]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Woodget J.R., Gould K.L., Hunter T.
+#      Eur. J. Biochem. 161:177-184(1986).
+# [ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+#      Takeyama Y., Nishizuka Y.
+#      "Studies on the phosphorylation of myelin basic protein by protein
+#      kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+#      J. Biol. Chem. 260:12492-12499(1985).
+#      PubMed=2413024
+# 
+# ***************
+# 
+# Motif: MYRISTYL
+# Count: 1
+# 
+# *************************
+# * N-myristoylation site *
+# *************************
+# 
+# An  appreciable  number of eukaryotic  proteins  are  acylated by the covalent
+# addition of myristate (a C14-saturated fatty acid) to their N-terminal residue
+# via an amide linkage [1,2]. The sequence specificity of the enzyme responsible
+# for this  modification,   myristoyl CoA:protein N-myristoyl transferase (NMT),
+# has been  derived from the sequence of known N-myristoylated proteins and from
+# studies using synthetic peptides. It seems to be the following:
+# 
+#  - The N-terminal residue must be glycine.
+#  - In position 2, uncharged residues  are allowed.  Charged residues,  proline
+#    and large hydrophobic residues are not allowed.
+#  - In positions 3 and 4, most, if not all, residues are allowed.
+#  - In position  5,  small uncharged  residues are allowed (Ala, Ser, Thr, Cys,
+#    Asn and Gly). Serine is favored.
+#  - In position 6, proline is not allowed.
+# 
+# -Consensus pattern: G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}
+#                     [G is the N-myristoylation site]
+# 
+# -Note: We  deliberately include as  potential myristoylated  glycine residues,
+#  those which  are  internal  to a sequence. It could well be that the sequence
+#  under study  represents  a  viral  polyprotein  precursor and that subsequent
+#  proteolytic processing  could expose an internal glycine as the N-terminal of
+#  a mature protein.
+# 
+# -Last update: October 1989 / Pattern and text revised.
+# 
+# [ 1] Towler D.A., Gordon J.I., Adams S.P., Glaser L.
+#      "The biology and enzymology of eukaryotic protein acylation."
+#      Annu. Rev. Biochem. 57:69-99(1988).
+#      PubMed=3052287; DOI=10.1146/annurev.bi.57.070188.000441
+# [ 2] Grand R.J.A.
+#      "Acylation of viral and eukaryotic proteins."
+#      Biochem. J. 258:625-638(1989).
+#      PubMed=2658970
+# 
+# ***************
+# 
+#
+#---------------------------------------
+
+################ ORF 15: NM_000518.5|frame=-3|orf=3|aa_start=129|aa_end=208|aa_len=80 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:29
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_15.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_15_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_15_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=80     from: 1   to: 80
+# HitCount: 2
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 3
+Start = position 11 of sequence
+End = position 13 of sequence
+
+Motif = PKC_PHOSPHO_SITE
+
+RVAHNSIRSGQIP
+     | |
+    11 13
+
+Length = 6
+Start = position 37 of sequence
+End = position 42 of sequence
+
+Motif = MYRISTYL
+
+QQPAQGLTTNFIHVHL
+     |    |
+    37    42
+
+
+#---------------------------------------
+#
+# Motif: PKC_PHOSPHO_SITE
+# Count: 1
+# 
+# *****************************************
+# * Protein kinase C phosphorylation site *
+# *****************************************
+# 
+# In vivo, protein kinase C  exhibits  a  preference  for the phosphorylation of
+# serine or  threonine residues found close to a C-terminal basic residue [1,2].
+# The presence  of  additional   basic residues at the  N- or C-terminal of  the
+# target amino acid enhances the Vmax and Km of the phosphorylation reaction.
+# 
+# -Consensus pattern: [ST]-x-[RK]
+#                     [S or T is the phosphorylation site]
+# -Last update: June 1988 / First entry.
+# 
+# [ 1] Woodget J.R., Gould K.L., Hunter T.
+#      Eur. J. Biochem. 161:177-184(1986).
+# [ 2] Kishimoto A., Nishiyama K., Nakanishi H., Uratsuji Y., Nomura H.,
+#      Takeyama Y., Nishizuka Y.
+#      "Studies on the phosphorylation of myelin basic protein by protein
+#      kinase C and adenosine 3':5'-monophosphate-dependent protein kinase."
+#      J. Biol. Chem. 260:12492-12499(1985).
+#      PubMed=2413024
+# 
+# ***************
+# 
+# Motif: MYRISTYL
+# Count: 1
+# 
+# *************************
+# * N-myristoylation site *
+# *************************
+# 
+# An  appreciable  number of eukaryotic  proteins  are  acylated by the covalent
+# addition of myristate (a C14-saturated fatty acid) to their N-terminal residue
+# via an amide linkage [1,2]. The sequence specificity of the enzyme responsible
+# for this  modification,   myristoyl CoA:protein N-myristoyl transferase (NMT),
+# has been  derived from the sequence of known N-myristoylated proteins and from
+# studies using synthetic peptides. It seems to be the following:
+# 
+#  - The N-terminal residue must be glycine.
+#  - In position 2, uncharged residues  are allowed.  Charged residues,  proline
+#    and large hydrophobic residues are not allowed.
+#  - In positions 3 and 4, most, if not all, residues are allowed.
+#  - In position  5,  small uncharged  residues are allowed (Ala, Ser, Thr, Cys,
+#    Asn and Gly). Serine is favored.
+#  - In position 6, proline is not allowed.
+# 
+# -Consensus pattern: G-{EDRKHPFYW}-x(2)-[STAGCN]-{P}
+#                     [G is the N-myristoylation site]
+# 
+# -Note: We  deliberately include as  potential myristoylated  glycine residues,
+#  those which  are  internal  to a sequence. It could well be that the sequence
+#  under study  represents  a  viral  polyprotein  precursor and that subsequent
+#  proteolytic processing  could expose an internal glycine as the N-terminal of
+#  a mature protein.
+# 
+# -Last update: October 1989 / Pattern and text revised.
+# 
+# [ 1] Towler D.A., Gordon J.I., Adams S.P., Glaser L.
+#      "The biology and enzymology of eukaryotic protein acylation."
+#      Annu. Rev. Biochem. 57:69-99(1988).
+#      PubMed=3052287; DOI=10.1146/annurev.bi.57.070188.000441
+# [ 2] Grand R.J.A.
+#      "Acylation of viral and eukaryotic proteins."
+#      Biochem. J. 258:625-638(1989).
+#      PubMed=2658970
+# 
+# ***************
+# 
+#
+#---------------------------------------
+
+################ ORF 16: NM_000518.5|frame=-3|orf=4|aa_start=190|aa_end=208|aa_len=19 ################
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:35:29
+# Commandline: patmatmotifs
+#    -sequence /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_16.faa
+#    -outfile /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_16_prosite.txt
+#    -full
+#    -prune N
+# Report_format: dbmotif
+# Report_file: /var/folders/92/gzryh95953911f6jxzt6nx140000gn/T/ej4_prosite_txxh2oa2/orf_16_prosite.txt
+########################################
+
+#=======================================
+#
+# Sequence: aa_len=19     from: 1   to: 19
+# HitCount: 0
+#
+# Full: Yes
+# Prune: No
+# Data_file: /opt/miniconda3/envs/bioemboss/bin/../share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,67 @@
+Ejercicio 5 – Diseño de primers para el gen HBB (NM_000518.5)
+
+Para este ejercicio utilizamos como transcripto de referencia el mRNA de la subunidad beta de la hemoglobina humana (gen HBB, transcripto NM_000518.5), 
+en formato GenBank (archivo sequence.gb, descargado de NCBI). A partir de ese archivo generamos la versión en formato FASTA empleando el programa seqret de EMBOSS con el siguiente comando:
+
+seqret -sequence sequence.gb -sformat1 genbank -osformat2 fasta -outseq transcripto.fa
+
+Sobre esta secuencia (transcripto.fa) desarrollamos un script en Python (ex5.py) que diseña primers de manera automática. El script lee:
+
+La secuencia del transcripto en formato FASTA (archivo de entrada).
+
+Un archivo de configuración en formato JSON (config.json) donde se especifican los parámetros de diseño.
+
+Los parámetros utilizados fueron:
+
+Longitud mínima del primer: 18 nucleótidos
+
+Longitud máxima del primer: 24 nucleótidos
+
+Contenido de GC mínimo: 50 %
+
+Contenido de GC máximo: 60 %
+
+Temperatura de melting (Tm) máxima: 67 °C
+
+Evitar que el nucleótido terminal 3' sea G o C
+
+Número deseado de primers: 5
+
+La Tm se calculó empleando la fórmula empírica de Wallace:
+Tm = 2 × (A + T) + 4 × (G + C)
+
+El script recorre la secuencia del transcripto ventana por ventana, generando candidatos de longitud entre 18 y 24 pb y filtrando aquellos que cumplen simultáneamente todos los criterios (longitud, %GC, Tm y ausencia de G/C en el extremo 3'). Los primeros 5 candidatos válidos se guardan en el archivo de salida primers_generados.txt en formato FASTA.
+
+Los 5 primers obtenidos para el transcripto NM_000518.5 fueron:
+
+primer_1
+GCAACCTCAAACAGACACCA
+Longitud: 20 pb
+GC %: 50,0 %
+Tm (Wallace): 60 °C
+
+primer_2
+CCTCAAACAGACACCATGGT
+Longitud: 20 pb
+GC %: 50,0 %
+Tm (Wallace): 60 °C
+
+primer_3
+CTCAAACAGACACCATGGTGCA
+Longitud: 22 pb
+GC %: 50,0 %
+Tm (Wallace): 66 °C
+
+primer_4
+CAAACAGACACCATGGTGCA
+Longitud: 20 pb
+GC %: 50,0 %
+Tm (Wallace): 60 °C
+
+primer_5
+AACAGACACCATGGTGCA
+Longitud: 18 pb
+GC %: 50,0 %
+Tm (Wallace): 54 °C
+
+Todos los oligómeros se encuentran dentro del rango de longitud especificado (18–24 pb), presentan un contenido de GC entre 50 % y 60 %, no finalizan en G o C en su extremo 3' y respetan la Tm máxima de 67 °C. Estos primers pueden emplearse en ensayos de tipo cualitativo y/o cuantitativo (por ejemplo, RT-PCR o qPCR) para evaluar la expresión del transcripto asociado a las variantes patológicas de HBB en muestras de pacientes.

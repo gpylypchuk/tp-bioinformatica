@@ -1,0 +1,10 @@
+>primer_1
+gcaacctcaaacagacacca
+>primer_2
+cctcaaacagacaccatggt
+>primer_3
+ctcaaacagacaccatggtgca
+>primer_4
+caaacagacaccatggtgca
+>primer_5
+aacagacaccatggtgca
